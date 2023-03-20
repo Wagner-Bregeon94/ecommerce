@@ -36,9 +36,6 @@
 
         }
 
-
-        $products = Product::listAll();
-
         $page = new PageAdmin();
 
         $page->setTpl("products", [
